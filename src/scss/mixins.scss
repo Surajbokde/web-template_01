@@ -1,0 +1,11 @@
+@mixin mediaquery($width) {
+  @media (max-width: $width) {
+    @content;
+  }
+}
+
+@mixin min-mediaquery($width) {
+  @media (min-width: $width) {
+    @content;
+  }
+}
